@@ -1,0 +1,29 @@
+{
+    "name": "davidxu/yii2-filepond",
+    "description": "A filepond uploader extension for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Xu",
+            "email": "david.xu.uts@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "repositories":[
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "davidxu\\filepond\\": "src/"
+        }
+    }
+}
